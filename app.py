@@ -3,7 +3,6 @@ from flask_restplus import Resource
 from extensions import api
 from serializers import get_note_fields, post_note_response
 from parsers import post_note_args
-from flask_dynamo import Dynamo
 import boto3
 from boto3.dynamodb.conditions import Key
 from uuid import uuid1
